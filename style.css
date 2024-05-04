@@ -54,11 +54,13 @@
     left: 50%; 
     width: 3px;
     border-radius: 7px;
-    background: #fff;
-    height: 0;
+    background: rgba(255, 255, 255, 0);
+    height: 100%;
+   
 }
 .navbar li a:hover::after  {
-    height:  100%;
+    background: rgba(255, 255, 255, 1);
+
      transition: 0.5s;
 } 
 .content {
